@@ -88,6 +88,9 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+li {
+    display: inline:
+}
 
 
 
@@ -271,8 +274,4 @@ textarea {
     h3 {
         page-break-after: avoid;
     }
-}
-
-li {
-    display: inline:
 }
