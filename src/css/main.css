@@ -88,7 +88,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-li {
+#menu li {
     display: inline;
 }
 
