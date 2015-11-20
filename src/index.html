@@ -20,23 +20,46 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <div id="menu">
-            <!--Old style of creating menus-->
-            <ul>
-                <li><a href="#">Homepage</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+        
+        
+        <div id="wrapper">
+            <div id="logo" class="float_left">
+                <img src="http://wrkbench.io/images/logo.png" />
+            </div>
+            <div id="menu" class="float_right">
+                <!--Old style of creating menus-->
+                <ul>
+                    <li><a href="#">Homepage</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        
+            <div id="content" class="clear">
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+            </div>
+            <div id="callout1" class="float_left callout">
+                <h2>Heading 1</h2>
+                Lorem Ipsum
+            </div>
+            <div id="callout2" class="float_left callout">
+                <h2>Heading 2</h2>
+                Lorem Ipsum
+            </div>
+            <div id="callout3" class="float_left callout">
+                <h2>Heading 3</h2>
+                Lorem Ipsum
+            </div>
+            <div id="footer" class="clear">
+                <p>Footer</p>
+            </div>
         </div>
         
-        <div id="content">
-            <ul>
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-            </ul>
-        </div>
-
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/{{JQUERY_VERSION}}/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
