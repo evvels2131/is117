@@ -99,6 +99,22 @@ textarea {
     margin-bottom: 10px;
 }
 
+#content {
+    background-image: url(../img/party.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+#left_content {
+    /* Golden ratio */
+    width: 593px;
+}
+
+#right_content {
+    
+    line-height: 400px;
+}
+
 .float_left {
     float: left;
 }
