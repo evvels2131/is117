@@ -196,7 +196,15 @@ textarea {
 }
 
 #footer {
-    background-color: green;
+    background-color: lightgray;
+    height: 400px;
+    color: whitesmoke;
+    
+}
+
+.f_heading {
+    font-weight: 500;
+    font-size: 28px;
 }
 
 .callout {
