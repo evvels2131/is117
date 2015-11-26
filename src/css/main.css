@@ -114,23 +114,34 @@ textarea {
     background-color:#D0FDFF;
 }
 
+#content3 {
+    height: 400px;
+    background-color: #C6FDE2;
+}
+
 #content2_inside {
     width:480px;
-    line-height: 150%;
     margin-left: auto;
     margin-right: auto;
-    font-size: 25px;
 }
 
 /* Heading of each section of my page */
 .main_heading {
     font-weight: 700;
     padding-top: 20px;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .main_text {
     font-weight: 400;
+    font-size: 25px;
+    line-height: 150%;
+}
+
+.p_small {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
 }
 
 
@@ -177,8 +188,10 @@ textarea {
 }
 
 .callout {
-    width: 310px;
-    padding-left: 10px;
+    width: 240px;
+    padding-left: 40px;
+    padding-right: 40px;
+
 }
 #callout1 {
     background-color: gray
