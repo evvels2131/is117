@@ -99,10 +99,43 @@ textarea {
     margin-bottom: 10px;
 }
 
+.roboto_font {
+    font-family: 'Roboto', sans-serif;
+}
+
 #content {
     background-image: url(../img/party.jpg);
     height: 400px;
     background-repeat: no-repeat;
+}
+
+#content2 {
+    height:400px;
+    background-color:#D0FDFF;
+}
+
+#content2_inside {
+    width:480px;
+    line-height: 150%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+}
+
+/* Heading of each section of my page */
+.main_heading {
+    font-weight: 700;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+.main_text {
+    font-weight: 400;
+}
+
+
+.text_center {
+    text-align: center;   
 }
 
 #left_content {
@@ -111,7 +144,6 @@ textarea {
 }
 
 #right_content {
-    
     line-height: 400px;
 }
 
