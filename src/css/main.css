@@ -93,27 +93,58 @@ textarea {
     margin-right: auto;
 }
 
+/* Helvetica-like font from Google Fonts */
+.roboto_font {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Logo */
 #logo {
     width: 156px;
     height: 33px;
     margin-bottom: 10px;
 }
 
-.roboto_font {
-    font-family: 'Roboto', sans-serif;
+/* Logo and navigation*/
+#top {
+    background-color:#D0FDFF;
+    height: 50px;
 }
 
+/* First content box */
 #content {
-    background-image: url(../img/party.jpg);
-    height: 400px;
-    background-repeat: no-repeat;
+    /*background-image: url(../img/party.jpg);*/
+    /*background-repeat: no-repeat;*/
+    /*background-color: #C6FDE2;*/
+    background-color: darkgray;
+    height: 400px;   
 }
 
+/* Styling of header tag in content 1 */
+.content1_header {
+    color:#FFFFFF;
+    font-weight: 700;
+    font-size: 45px;
+    padding-top: 20px;
+    text-align: left;
+    
+}
+
+.content1_paragraph {
+    color: #F9F9FA;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 150%;
+    text-align: left;
+}
+
+/* Second content box */
 #content2 {
     height:400px;
     background-color:#D0FDFF;
 }
 
+/* Third content box */
 #content3 {
     height: 400px;
     background-color: #C6FDE2;
@@ -163,7 +194,9 @@ textarea {
 
 #left_content {
     /* Golden ratio */
-    width: 593px;
+    width: 513px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 #right_content {
@@ -191,9 +224,9 @@ textarea {
     background-color: red;
 }
 
-#content {
+/*#content {
     background-color: blue;
-}
+}*/
 
 #footer {
     background-color: lightgray;
