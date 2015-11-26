@@ -132,6 +132,7 @@ textarea {
     font-size: 35px;
 }
 
+/* Styling for text that goes after paragraphs */
 .main_text {
     font-weight: 400;
     font-size: 25px;
@@ -142,6 +143,17 @@ textarea {
     font-weight: 400;
     font-size: 15px;
     line-height: 150%;
+}
+
+/* Testimonials */
+.p_testimonial {
+    color: #606564;
+}
+
+/* Heading for testimonials */
+.h_testimonial {
+    font-weight: 500;
+    font-size: 15px;
 }
 
 
