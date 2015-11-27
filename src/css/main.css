@@ -87,6 +87,12 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+body {
+    background-image: url(../img/tex2res2.png);
+    background-repeat: repeat;
+    margin: 0;
+}
 #wrapper {
     width: 960px;
     margin-left: auto;
