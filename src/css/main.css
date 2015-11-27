@@ -89,8 +89,6 @@ textarea {
    ========================================================================== */
 
 body {
-    background-image: url(../img/tex2res2.png);
-    background-repeat: repeat;
     margin: 0;
 }
 
@@ -100,14 +98,15 @@ body {
     margin-right: auto;
 }
 
-/* Background and styling for logo and navigation section*/
-.first_styling {
+/* Set background and styling for logo and navigation section */
+.sec1_styling {
     width: 100%;
     background-color:#D0FDFF;
     height: 75px;
 }
 
-.second_styling {
+/* Set background and styling for section 2 */
+.sec2_styling {
     margin-left:auto;
     margin-right:auto;
     background-image: url(../img/background1.png);
@@ -118,8 +117,8 @@ body {
     
 }
 
-/* Background and styling for third section box */
-.third_styling {
+/* Set background and styling for section 3 and 5 */
+.sec3_styling {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -127,7 +126,8 @@ body {
     background-color:#D0FDFF;
 }
 
-.fourth_styling {
+/* Set background and styling for section 4 */
+.sec4_styling {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -135,6 +135,7 @@ body {
     background-color: #C6FDE2;
 }
 
+/* Set background and styling for the footer */
 .footer_styling {
     height: 400px;
     width: 100%;
@@ -150,12 +151,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Logo and navigation*/
-/*#top {
-    background-color:#D0FDFF;
-    height: 75px;
-}*/
-
 /* Logo */
 #logo {
     width: 156px;
@@ -166,22 +161,6 @@ body {
 #menu {
     margin-top: 10px;
     margin-right: 15px;
-}
-
-
-/* First content box */
-#content {
-    /*background-image: url(../img/party.jpg);*/
-    /*background-repeat: no-repeat;*/
-    /*background-color: #C6FDE2;*/
-    /*background-color: darkgray;*/
-    /*background-image: url(../img/background1.png);
-    /*background-size: 80px 60px;*/
-    /*background-position:50% 50%;  /* Sets reference point to scale from */
-    /*background-size:cover;        /* Sets background image to cover entire element */
-    /*background-repeat: no-repeat;*/
-    /*height: 450px;*/
-    /*width: 960px;*/
 }
 
 /* Change styling, such as size, to the iphone picture */
@@ -211,17 +190,12 @@ body {
     padding-bottom: 20px;
 }
 
-/* Second content box */
-#content2 {
-
-}
-
 /* Styling for images in content 2 box */
 .c2_img {
     padding-top: 30px;
-    width:40px; /* you can use % */
+    width:45px; /* you can use % */
     height: auto;
-    padding-right: 25px;
+    padding-right: 40px;
 }
 
 /* Styling for content 2 heading tag*/
@@ -229,16 +203,12 @@ body {
     line-height: 25px;
 }
 
-/* Third content box */
-#content3 {
-
-}
-
 /* Styling for images in content 3 box */
 .c3_img {
-    width:40px; /* you can use % */
+    padding-top: 30px;
+    width:45px; /* you can use % */
     height: auto;
-    padding-right: 15px;
+    padding-right: 20px;
 }
 
 #c3_img {
@@ -328,58 +298,34 @@ body {
     clear:both;
 }
 
-/*#menu li {
-    display: inline;
-}*/
-
-/*#menu {
-    background-color: red;
-}*/
-
-/*#content {
-    background-color: blue;
-}*/
-
-#footer {
-    /*background-image: url(../img/background1.png);
-    /*background-size: 80px 60px;*/
-    /*background-position:50% 50%;  /* Sets reference point to scale from */
-    /*background-size:cover;        /* Sets background image to cover entire element */
-    /*background-repeat: no-repeat;*/
-    /*height: 400px;
-    width: 960px;*/
-    color: whitesmoke;
-}
-
 .f_img {
     padding-top: 20px;
-    width:40px; /* you can use % */
+    width:45px; /* you can use % */
     height: auto;
-    padding-right: 25px;
+    padding-right: 35px;
+    padding-left: 35px;
 }
 
 .f_heading {
-    padding-top:20px;
+    padding-top:30px;
     font-weight: 500;
-    font-size: 28px;
+    font-size: 35px;
+    color: whitesmoke;
 }
+
+.f_heading2 {
+    padding-top:30px;
+    font-weight: 500;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
 
 .callout {
     width: 240px;
     padding-left: 40px;
     padding-right: 40px;
 
-}
-#callout1 {
-    background-color: gray
-}
-
-#callout2 {
-    background-color: orange;
-}
-
-#callout3 {
-    background-color: cyan;
 }
 
 ul, li {
