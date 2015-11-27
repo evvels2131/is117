@@ -180,7 +180,7 @@ textarea {
 
 /* Third content box */
 #content3 {
-    height: 400px;
+    height: 650px;
     background-color: #C6FDE2;
 }
 
@@ -190,6 +190,19 @@ textarea {
     height: auto;
     padding-right: 15px;
 }
+
+#c3_img {
+    margin-right: auto;
+    margin-left:auto;
+}
+/* Styling for images in content 3 box */
+.c3_img2 {
+    padding-top: 15px;
+    width:350px; /* you can use % */
+    height: auto;
+    padding-left: 300px;
+}
+
 
 #content2_inside {
     width:480px;
