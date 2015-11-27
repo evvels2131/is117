@@ -203,6 +203,13 @@ textarea {
     padding-left: 300px;
 }
 
+/* Styling for person images */
+.person_img {
+    width:70px; /* you can use % */
+    height: auto;
+    padding-right: 10px;
+    padding-top: 15px;
+}
 
 #content2_inside {
     width:480px;
@@ -228,6 +235,7 @@ textarea {
     font-weight: 400;
     font-size: 15px;
     line-height: 150%;
+    display: inline;
 }
 
 /* Testimonials */
