@@ -93,10 +93,65 @@ body {
     background-repeat: repeat;
     margin: 0;
 }
+
+#wrapper2 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/background2.png);
+    background-position:50% 50%;  /* Sets reference point to scale from */
+    background-size:cover;        /* Sets background image to cover entire element */
+    height: 500px;
+}
 #wrapper {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* Background and styling for logo and navigation section*/
+.first_styling {
+    width: 100%;
+    background-color:#D0FDFF;
+    height: 75px;
+}
+
+.second_styling {
+    margin-left:auto;
+    margin-right:auto;
+    background-image: url(../img/background1.png);
+    background-position:50% 50%;  /* Sets reference point to scale from */
+    background-size:cover;        /* Sets background image to cover entire element */
+    height: 450px;
+    width: 100%;
+    
+}
+
+/* Background and styling for third section box */
+.third_styling {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height:400px;
+    background-color:#D0FDFF;
+}
+
+.fourth_styling {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 650px;
+    background-color: #C6FDE2;
+}
+
+.footer_styling {
+    height: 400px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/background2.png);
+    background-position:50% 50%;  /* Sets reference point to scale from */
+    background-size:cover;        /* Sets background image to cover entire element */
 }
 
 /* Helvetica-like font from Google Fonts */
@@ -105,10 +160,10 @@ body {
 }
 
 /* Logo and navigation*/
-#top {
+/*#top {
     background-color:#D0FDFF;
     height: 75px;
-}
+}*/
 
 /* Logo */
 #logo {
@@ -129,13 +184,13 @@ body {
     /*background-repeat: no-repeat;*/
     /*background-color: #C6FDE2;*/
     /*background-color: darkgray;*/
-    background-image: url(../img/background1.png);
+    /*background-image: url(../img/background1.png);
     /*background-size: 80px 60px;*/
-    background-position:50% 50%;  /* Sets reference point to scale from */
-    background-size:cover;        /* Sets background image to cover entire element */
+    /*background-position:50% 50%;  /* Sets reference point to scale from */
+    /*background-size:cover;        /* Sets background image to cover entire element */
     /*background-repeat: no-repeat;*/
-    height: 450px;
-    width: 960px;
+    /*height: 450px;*/
+    /*width: 960px;*/
 }
 
 /* Change styling, such as size, to the iphone picture */
@@ -167,8 +222,7 @@ body {
 
 /* Second content box */
 #content2 {
-    height:400px;
-    background-color:#D0FDFF;
+
 }
 
 /* Styling for images in content 2 box */
@@ -186,8 +240,7 @@ body {
 
 /* Third content box */
 #content3 {
-    height: 650px;
-    background-color: #C6FDE2;
+
 }
 
 /* Styling for images in content 3 box */
@@ -297,13 +350,13 @@ body {
 }*/
 
 #footer {
-    background-image: url(../img/background1.png);
+    /*background-image: url(../img/background1.png);
     /*background-size: 80px 60px;*/
-    background-position:50% 50%;  /* Sets reference point to scale from */
-    background-size:cover;        /* Sets background image to cover entire element */
+    /*background-position:50% 50%;  /* Sets reference point to scale from */
+    /*background-size:cover;        /* Sets background image to cover entire element */
     /*background-repeat: no-repeat;*/
-    height: 400px;
-    width: 960px;
+    /*height: 400px;
+    width: 960px;*/
     color: whitesmoke;
 }
 
