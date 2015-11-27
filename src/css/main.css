@@ -173,6 +173,11 @@ textarea {
     padding-right: 25px;
 }
 
+/* Styling for content 2 heading tag*/
+.c2_h {
+    line-height: 25px;
+}
+
 /* Third content box */
 #content3 {
     height: 400px;
@@ -183,7 +188,7 @@ textarea {
 .c3_img {
     width:40px; /* you can use % */
     height: auto;
-    padding-right: 25px;
+    padding-right: 15px;
 }
 
 #content2_inside {
