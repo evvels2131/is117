@@ -132,6 +132,13 @@ textarea {
     width: 960px;
 }
 
+/* Change styling, such as size, to the iphone picture */
+.iphone {
+    padding-top: 40px;
+    width:180px; /* you can use % */
+    height: auto;
+}
+
 /* Styling of header tag in content 1 */
 .content1_header {
     color:#FFFFFF;
@@ -158,10 +165,25 @@ textarea {
     background-color:#D0FDFF;
 }
 
+/* Styling for images in content 2 box */
+.c2_img {
+    padding-top: 30px;
+    width:40px; /* you can use % */
+    height: auto;
+    padding-right: 25px;
+}
+
 /* Third content box */
 #content3 {
     height: 400px;
     background-color: #C6FDE2;
+}
+
+/* Styling for images in content 3 box */
+.c3_img {
+    width:40px; /* you can use % */
+    height: auto;
+    padding-right: 25px;
 }
 
 #content2_inside {
@@ -215,6 +237,7 @@ textarea {
 
 #right_content {
     line-height: 400px;
+    text-align: center;
 }
 
 .float_left {
