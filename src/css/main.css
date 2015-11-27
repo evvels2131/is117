@@ -94,15 +94,6 @@ body {
     margin: 0;
 }
 
-#wrapper2 {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url(../img/background2.png);
-    background-position:50% 50%;  /* Sets reference point to scale from */
-    background-size:cover;        /* Sets background image to cover entire element */
-    height: 500px;
-}
 #wrapper {
     width: 960px;
     margin-left: auto;
