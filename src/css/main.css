@@ -235,7 +235,6 @@ textarea {
     font-weight: 400;
     font-size: 15px;
     line-height: 150%;
-    display: inline;
 }
 
 /* Testimonials */
@@ -292,13 +291,25 @@ textarea {
 }*/
 
 #footer {
-    background-color: lightgray;
+    background-image: url(../img/background1.png);
+    /*background-size: 80px 60px;*/
+    background-position:50% 50%;  /* Sets reference point to scale from */
+    background-size:cover;        /* Sets background image to cover entire element */
+    /*background-repeat: no-repeat;*/
     height: 400px;
+    width: 960px;
     color: whitesmoke;
-    
+}
+
+.f_img {
+    padding-top: 20px;
+    width:40px; /* you can use % */
+    height: auto;
+    padding-right: 25px;
 }
 
 .f_heading {
+    padding-top:20px;
     font-weight: 500;
     font-size: 28px;
 }
@@ -355,6 +366,9 @@ ul, li {
       text-decoration: none;
 }
 
+.pad_top {
+    padding-top:30px;
+}
 
 
 
