@@ -122,8 +122,13 @@ textarea {
     /*background-image: url(../img/party.jpg);*/
     /*background-repeat: no-repeat;*/
     /*background-color: #C6FDE2;*/
-    background-color: darkgray;
-    height: 400px;
+    /*background-color: darkgray;*/
+    background-image: url(../img/background1.png);
+    /*background-size: 80px 60px;*/
+    background-position:50% 50%;  /* Sets reference point to scale from */
+    background-size:cover;        /* Sets background image to cover entire element */
+    /*background-repeat: no-repeat;*/
+    height: 450px;
     width: 960px;
 }
 
