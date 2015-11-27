@@ -112,7 +112,7 @@ body {
     background-image: url(../img/background1.png);
     background-position:50% 50%;  /* Sets reference point to scale from */
     background-size:cover;        /* Sets background image to cover entire element */
-    height: 425px;
+    height: 450px;
     width: 100%;  
 }
 
