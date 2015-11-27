@@ -121,7 +121,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    height:450px;
+    height:460px;
     background-color:#D0FDFF;
 }
 
@@ -232,7 +232,7 @@ body {
 }
 /* Styling for images in content 3 box */
 .c3_img2 {
-    padding-top: 15px;
+    padding-top: 25px;
     width:350px; /* you can use % */
     height: auto;
     padding-left: 300px;
@@ -247,7 +247,7 @@ body {
 }
 
 #content2_inside {
-    width:480px;
+    width:700px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -262,7 +262,7 @@ body {
 /* Styling for text that goes after paragraphs */
 .main_text {
     font-weight: 400;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 150%;
 }
 
@@ -291,12 +291,14 @@ body {
 #left_content {
     /* Golden ratio */
     width: 513px;
+    height: 450px;
     padding-left: 40px;
     padding-right: 40px;
 }
 
 #right_content {
     width: 355px;
+    height: 450px;
     line-height: 400px;
     text-align: center;
 }
@@ -386,6 +388,12 @@ ul, li {
 .padding_top40 {
     padding-top: 45px;
 }
+
+/* Word spacing */
+.word_spacing {
+    word-spacing: 15px;
+}
+
 
 
 
