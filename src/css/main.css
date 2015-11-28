@@ -301,7 +301,7 @@ body {
 
 /* Set background and styling for the footer */
 .footer_styling {
-    height: 450px;
+    height: 425px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -319,21 +319,21 @@ body {
 }
 
 .f_heading {
-    padding-top:30px;
+    padding-top:20px;
     font-weight: 500;
     font-size: 35px;
     color: whitesmoke;
 }
 
 .f_heading2 {
-    padding-top:30px;
+    padding-top:20px;
     font-weight: 500;
     font-size: 30px;
     color: whitesmoke;
 }
 
 .pad_top {
-    padding-top:30px;
+    padding-top:20px;
 }
 
 /* Word spacing */
