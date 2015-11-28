@@ -252,6 +252,12 @@ body {
     background-color: #C6FDE2;
 }
 
+.callout2 {
+    width: 240px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 .p_small {
     font-weight: 400;
     font-size: 15px;
