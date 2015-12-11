@@ -90,24 +90,33 @@ textarea {
 
 body {
     margin: 0;
-}
-
-/* Helvetica-like font from Google Fonts */
-.roboto_font {
+    /* Heletica-like font from Google Fonts */
     font-family: 'Roboto', sans-serif;
 }
 
+/* Helvetica-like font from Google Fonts */
+/*.roboto_font {
+    font-family: 'Roboto', sans-serif;
+}*/
+
+/* Initialize width for wrapper and place it in the middle */
 #wrapper {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
 }
 
-/* Set background and styling for logo and navigation section */
-.sec1_styling {
+/* Set height, width and background color for header */
+#header {
     width: 100%;
     background-color:#D0FDFF;
     height: 110px;
+}
+
+/* Set margins for menu */
+#menu {
+    margin-top: 30px;
+    margin-right: 15px;
 }
 
 /* Logo */
@@ -118,26 +127,25 @@ body {
 }
 
 /* Styling for logo */
-.logo_img {
+#logo_img {
     padding-top: 5px;
     width:300px; /* you can use % */
     height: auto;
 }
 
-#menu {
-    margin-top: 30px;
-    margin-right: 15px;
-}
+/***********************************************/
+/***************** SECTION 1 *******************/
+/***********************************************/
 
-/* Set background and styling for section 2 */
-.sec2_styling {
+/* Styling for first section with content */
+#sec_1 {
     margin-left:auto;
     margin-right:auto;
     background-image: url(../img/background1.png);
     background-position:50% 50%;  /* Sets reference point to scale from */
     background-size:cover;        /* Sets background image to cover entire element */
     height: 450px;
-    width: 100%;  
+    width: 100%;
 }
 
 #left_content {
@@ -155,25 +163,25 @@ body {
     text-align: center;
 }
 
-/* Styling for the iphone image in section 2 */
-.iphone {
+/* Styling for iPhone image */
+#iphone {
     padding-top: 40px;
     width:180px; /* you can use % */
     height: auto;
 }
 
-/* Styling of header tag in section 2 */
-.content1_header {
+/* Header tag in section 1 */
+#sec1_h {
     color:#FFFFFF;
     font-weight: 700;
     font-size: 45px;
     padding-top: 20px;
     text-align: left;
-    
+
 }
 
 /* Styling for paragraph tag in section 2 */
-.content1_paragraph {
+#sec1_p {
     color: #F9F9FA;
     font-weight: 400;
     font-size: 25px;
@@ -182,14 +190,12 @@ body {
     padding-bottom: 20px;
 }
 
-#content2_inside {
-    width:700px;
-    margin-left: auto;
-    margin-right: auto;
-}
+/***********************************************/
+/***************** SECTION 2 *******************/
+/***********************************************/
 
-/* Set background and styling for section 3 */
-.sec3_styling {
+/* Set background, width, height, and center section 2 */
+#sec_2 {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -197,54 +203,31 @@ body {
     background-color:#D0FDFF;
 }
 
-/* Word spacing */
-.word_spacing {
-    word-spacing: 15px;
-}
-
-/* Styling for text that goes after paragraphs */
-.main_text {
+/* Styling for a div tag within section 2 */
+#sec2_div {
+    width:700px;
+    margin-left: auto;
+    margin-right: auto;
     font-weight: 400;
     font-size: 30px;
     line-height: 150%;
+    word-spacing: 15px;
 }
 
-/* Styling for images in section 3 */
-.c2_img {
+/* Styling for images in section 2 */
+.sec2_img {
     padding-top: 30px;
     width:45px; /* you can use % */
     height: auto;
     padding-right: 40px;
 }
 
-/* Styling for section 3 heading tag*/
-.c2_h {
-    line-height: 25px;
-}
+/***********************************************/
+/***************** SECTION 3 *******************/
+/***********************************************/
 
-/* Set background and styling for section 3 and 5 */
-.sec5_styling {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    height:350px;
-    background-color:#D0FDFF;
-}
-
-#img {
-    height: 200px;
-}
-
-/* Styling for person images */
-.person_img {
-    width:100px; /* you can use % */
-    height: auto;
-    padding-right: 10px;
-    padding-top: 15px;
-}
-
-/* Set background and styling for section 4 */
-.sec4_styling {
+/* Set background, height, width, and center section 4 */
+#sec_3 {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -252,55 +235,92 @@ body {
     background-color: #C6FDE2;
 }
 
-.callout2 {
+/* Styling for section 4 callout */
+.sec3_callout {
     width: 240px;
     padding-left: 40px;
     padding-right: 40px;
 }
 
-
-
-.p_small {
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 150%;
-    padding-top: 10px;
-}
-
-/* Testimonials */
-.p_testimonial {
-    color: #606564;
-}
-
-/* Heading for testimonials */
-.h_testimonial {
-    font-weight: 500;
-    font-size: 15px;
-}
-
-/* Styling for images in section 4 */
-.c3_img {
+/* Styling for images in section 4 callouts */
+.sec3_img1 {
     padding-top: 30px;
     width:45px; /* you can use % */
     height: auto;
     padding-right: 20px;
 }
 
-#c3_img {
-    margin-right: auto;
-    margin-left:auto;
-}
-
-/* Styling for images in section 4 */
-.c3_img2 {
+/* Styling for iPad image */
+.ipad {
     padding-top: 25px;
     width:350px; /* you can use % */
     height: auto;
     padding-left: 300px;
+    margin-right: auto;
+    margin-left:auto;
 }
 
+/* Styling for paragraph in section 3 */
+.sec3_p {
+    padding-top: 10px;
+    font-size: 15px;
+    line-height: 150%;
+    
+}
+
+/***********************************************/
+/***************** SECTION 4 *******************/
+/***********************************************/
+
+/* Set background, width, height, and center section 4 */
+#sec_4{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height:350px;
+    background-color:#D0FDFF;
+}
+
+/* Styling for callouts in section 4 */
+.sec4_callout {
+    width: 280px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Styling for images in section 4 */
+.sec4_img {
+    height: 200px;
+}
+
+/* Styling for face images */
+.person_img {
+    width:100px; /* you can use % */
+    height: auto;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+.sec4_p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    padding-top: 10px;
+    color: #606564;
+}
+
+/* Heading for testimonials */
+.sec4_t {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/***********************************************/
+/***************** FOOTER **********************/
+/***********************************************/
+
 /* Set background and styling for the footer */
-.footer_styling {
+#footer {
     height: 425px;
     width: 100%;
     margin-left: auto;
@@ -310,6 +330,7 @@ body {
     background-size:cover;        /* Sets background image to cover entire element */
 }
 
+/* Styling for images in footer */
 .f_img {
     padding-top: 20px;
     width:45px; /* you can use % */
@@ -318,34 +339,26 @@ body {
     padding-left: 35px;
 }
 
-.f_heading {
-    padding-top:20px;
+/* Styling for first header in footer */
+.f_h {
     font-weight: 500;
     font-size: 35px;
     color: whitesmoke;
+    word-spacing: 15px;
 }
 
-.f_heading2 {
+/* Styling for second header in footer */
+.f_h2 {
     padding-top:20px;
     font-weight: 500;
     font-size: 30px;
     color: whitesmoke;
-}
-
-.pad_top {
-    padding-top:20px;
-}
-
-/* Word spacing */
-.word_spacing2 {
     word-spacing: 10px;
 }
 
-
-
-
-
-
+/***********************************************/
+/****************** OTHER **********************/
+/***********************************************/
 
 /* Heading of each section of my page */
 .main_heading {
@@ -354,9 +367,15 @@ body {
     font-size: 35px;
 }
 
+/* Center text */
 .text_center {
-    text-align: center;   
+    text-align: center;
 }
+
+.pad_top {
+    padding-top:20px;
+}
+
 
 .float_left {
     float: left;
@@ -369,13 +388,6 @@ body {
 /* Returns page rendering back to normal */
 .clear {
     clear:both;
-}
-
-.callout {
-    width: 280px;
-    padding-left: 20px;
-    padding-right: 20px;
-
 }
 
 /* CTA Button */
@@ -411,7 +423,6 @@ body {
 .padding_top40 {
     padding-top: 45px;
 }
-
 
 /* ==========================================================================
    Helper classes
