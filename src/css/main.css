@@ -94,16 +94,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Helvetica-like font from Google Fonts */
-/*.roboto_font {
-    font-family: 'Roboto', sans-serif;
-}*/
-
 /* Initialize width for wrapper and place it in the middle */
 #wrapper {
     width: 960px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 /* Set height, width and background color for header */
@@ -139,8 +132,6 @@ body {
 
 /* Styling for first section with content */
 #sec_1 {
-    margin-left:auto;
-    margin-right:auto;
     background-image: url(../img/background1.png);
     background-position:50% 50%;  /* Sets reference point to scale from */
     background-size:cover;        /* Sets background image to cover entire element */
@@ -196,8 +187,6 @@ body {
 
 /* Set background, width, height, and center section 2 */
 #sec_2 {
-    margin-left: auto;
-    margin-right: auto;
     width: 100%;
     height:485px;
     background-color:#D0FDFF;
@@ -206,8 +195,6 @@ body {
 /* Styling for a div tag within section 2 */
 #sec2_div {
     width:700px;
-    margin-left: auto;
-    margin-right: auto;
     font-weight: 400;
     font-size: 30px;
     line-height: 150%;
@@ -229,8 +216,6 @@ body {
 /* Set background, height, width, and center section 4 */
 #sec_3 {
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
     height: 680px;
     background-color: #C6FDE2;
 }
@@ -256,16 +241,13 @@ body {
     width:350px; /* you can use % */
     height: auto;
     padding-left: 300px;
-    margin-right: auto;
-    margin-left:auto;
 }
 
 /* Styling for paragraph in section 3 */
 .sec3_p {
     padding-top: 10px;
     font-size: 15px;
-    line-height: 150%;
-    
+    line-height: 150%;   
 }
 
 /***********************************************/
@@ -274,8 +256,8 @@ body {
 
 /* Set background, width, height, and center section 4 */
 #sec_4{
-    margin-left: auto;
-    margin-right: auto;
+    /*margin-left: auto;
+    margin-right: auto;*/
     width: 100%;
     height:350px;
     background-color:#D0FDFF;
@@ -301,6 +283,7 @@ body {
     padding-top: 15px;
 }
 
+/* Styling for paragraph in section 4 */
 .sec4_p {
     font-weight: 400;
     font-size: 15px;
@@ -323,8 +306,6 @@ body {
 #footer {
     height: 425px;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
     background-image: url(../img/background2.png);
     background-position:50% 50%;  /* Sets reference point to scale from */
     background-size:cover;        /* Sets background image to cover entire element */
@@ -370,6 +351,11 @@ body {
 /* Center text */
 .text_center {
     text-align: center;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .pad_top {
