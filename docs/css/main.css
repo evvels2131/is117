@@ -1,0 +1,580 @@
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+    margin: 0;
+    /* Heletica-like font from Google Fonts */
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Initialize width for wrapper and place it in the middle */
+#wrapper {
+    width: 960px;
+}
+
+/* Set height, width and background color for header */
+#header {
+    width: 100%;
+    background-color:#D0FDFF;
+    height: 110px;
+}
+
+/* Set margins for menu */
+#menu {
+    margin-top: 30px;
+    margin-right: 15px;
+}
+
+/* Logo */
+#logo {
+    width: 200px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+/* Styling for logo */
+#logo_img {
+    padding-top: 5px;
+    width:300px; /* you can use % */
+    height: auto;
+}
+
+/***********************************************/
+/***************** SECTION 1 *******************/
+/***********************************************/
+
+/* Styling for first section with content */
+#sec_1 {
+    background-image: url(../img/background1.png);
+    background-position:50% 50%;  /* Sets reference point to scale from */
+    background-size:cover;        /* Sets background image to cover entire element */
+    height: 450px;
+    width: 100%;
+}
+
+#left_content {
+    /* Golden ratio */
+    width: 513px;
+    height: 450px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#right_content {
+    width: 355px;
+    height: 450px;
+    line-height: 400px;
+    text-align: center;
+}
+
+/* Styling for iPhone image */
+#iphone {
+    padding-top: 40px;
+    width:180px; /* you can use % */
+    height: auto;
+}
+
+/* Header tag in section 1 */
+#sec1_h {
+    color:#FFFFFF;
+    font-weight: 700;
+    font-size: 45px;
+    padding-top: 17px;
+    text-align: left;
+
+}
+
+/* Styling for paragraph tag in section 2 */
+#sec1_p {
+    color: #F9F9FA;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 150%;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+/***********************************************/
+/***************** SECTION 2 *******************/
+/***********************************************/
+
+/* Set background, width, height, and center section 2 */
+#sec_2 {
+    width: 100%;
+    height:485px;
+    background-color:#D0FDFF;
+}
+
+/* Styling for a div tag within section 2 */
+#sec2_div {
+    width:700px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 150%;
+    word-spacing: 15px;
+}
+
+/* Styling for images in section 2 */
+.sec2_img {
+    padding-top: 35px;
+    width:45px; /* you can use % */
+    height: auto;
+    padding-right: 40px;
+}
+
+/***********************************************/
+/***************** SECTION 3 *******************/
+/***********************************************/
+
+/* Set background, height, width, and center section 4 */
+#sec_3 {
+    width: 100%;
+    height: 680px;
+    background-color: #C6FDE2;
+}
+
+/* Styling for section 4 callout */
+.sec3_callout {
+    width: 240px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/* Styling for images in section 4 callouts */
+.sec3_img1 {
+    padding-top: 30px;
+    width:45px; /* you can use % */
+    height: auto;
+    padding-right: 20px;
+}
+
+/* Styling for iPad image */
+.ipad {
+    padding-top: 30px;
+    width:350px; /* you can use % */
+    height: auto;
+    padding-left: 300px;
+}
+
+/* Styling for paragraph in section 3 */
+.sec3_p {
+    padding-top: 10px;
+    font-size: 15px;
+    line-height: 150%;   
+}
+
+/***********************************************/
+/***************** SECTION 4 *******************/
+/***********************************************/
+
+/* Set background, width, height, and center section 4 */
+#sec_4{
+    /*margin-left: auto;
+    margin-right: auto;*/
+    width: 100%;
+    height:350px;
+    background-color:#D0FDFF;
+}
+
+/* Styling for callouts in section 4 */
+.sec4_callout {
+    width: 280px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Styling for images in section 4 */
+.sec4_img {
+    height: 200px;
+}
+
+/* Styling for face images */
+.person_img {
+    width:100px; /* you can use % */
+    height: auto;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+/* Styling for paragraph in section 4 */
+.sec4_p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    padding-top: 10px;
+    color: #606564;
+}
+
+/* Heading for testimonials */
+.sec4_t {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/***********************************************/
+/***************** FOOTER **********************/
+/***********************************************/
+
+/* Set background and styling for the footer */
+#footer {
+    height: 425px;
+    width: 100%;
+    background-image: url(../img/background2.png);
+    background-position:50% 50%;  /* Sets reference point to scale from */
+    background-size:cover;        /* Sets background image to cover entire element */
+}
+
+/* Styling for images in footer */
+.f_img {
+    padding-top: 20px;
+    width:45px; /* you can use % */
+    height: auto;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+/* Styling for first header in footer */
+.f_h {
+    font-weight: 500;
+    font-size: 35px;
+    color: whitesmoke;
+    word-spacing: 15px;
+}
+
+/* Styling for second header in footer */
+.f_h2 {
+    padding-top:20px;
+    font-weight: 500;
+    font-size: 30px;
+    color: whitesmoke;
+    word-spacing: 10px;
+}
+
+/***********************************************/
+/****************** OTHER **********************/
+/***********************************************/
+
+/* Heading of each section of my page */
+.main_heading {
+    font-weight: 700;
+    padding-top: 20px;
+    font-size: 35px;
+}
+
+/* Center text */
+.text_center {
+    text-align: center;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pad_top {
+    padding-top:20px;
+}
+
+
+.float_left {
+    float: left;
+}
+
+.float_right {
+    float: right;
+}
+
+/* Returns page rendering back to normal */
+.clear {
+    clear:both;
+}
+
+/* CTA Button */
+.btn {
+      background: #98ECDC;
+      background-image: -webkit-linear-gradient(top, #98ECDC, #96C0AB);
+      background-image: -moz-linear-gradient(top, #98ECDC, #96C0AB);
+      background-image: -ms-linear-gradient(top, #98ECDC, #96C0AB);
+      background-image: -o-linear-gradient(top, #98ECDC, #96C0AB);
+      background-image: linear-gradient(to bottom, #98ECDC, #96C0AB);
+      -webkit-border-radius: 4;
+      -moz-border-radius: 4;
+      border-radius: 4px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+      color: #000000;
+      font-size: 22px;
+      padding: 10px 20px 10px 20px;
+      border: solid #BFF5DA 2px;
+      text-decoration: none;
+}
+
+.btn:hover {
+      background: #96C0AB;
+      background-image: -webkit-linear-gradient(top, #96C0AB, #98ECDC);
+      background-image: -moz-linear-gradient(top, #96C0AB, #98ECDC);
+      background-image: -ms-linear-gradient(top, #96C0AB, #98ECDC);
+      background-image: -o-linear-gradient(top, #96C0AB, #98ECDC);
+      background-image: linear-gradient(to bottom, #96C0AB, #98ECDC);
+      text-decoration: none;
+}
+
+.padding_top40 {
+    padding-top: 45px;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
