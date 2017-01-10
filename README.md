@@ -12,4 +12,4 @@
 * Demonstrate the use of a monochromatic, complementary, or analogous color scheme<br />
 
 #### Link
-* [Final Project](http://goto1.github.io/is117/docs)
+* [Final Project](http://goto1.github.io/is117)
