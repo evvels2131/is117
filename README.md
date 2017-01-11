@@ -10,7 +10,7 @@
   Design and develop a landing page / homepage for a business.
 </p>
 
-### Requirements: 
+### Requirements
 * Demonstrate the golden ratio within the layout<br />
 * Demonstrate the use of a `Z layout` <br />
 * Demonstrate the design principles of `ADIA` <br />
